@@ -1,0 +1,87 @@
+.Container{
+ margin-left: 50px;
+ margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+}
+
+.Container > p{
+    text-align-last: left;
+}
+
+.Comments{
+    display: flex;
+    gap: 70px;
+}
+
+.Card{
+    position: relative;
+    width: 370px;
+    height: 210px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    border: 2px solid var(--color-text);
+    box-shadow: none;
+}
+
+.Card:first-child{
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 45px -20px  var(--color-text);
+}
+
+
+.CardAvatar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 3px solid var(--color-red);
+    top: -20px;
+    right: -20px;
+    border-radius: 50%;
+
+}
+
+.califSevice{
+    padding: 0;
+    margin: 4px 0;
+    display: flex;
+    gap: 3px;
+}
+
+.califSevice > li{
+    list-style: none;
+}
+
+.califStark{
+    width: 20px;
+    height: 20px;
+}
+
+.CardComment{
+    font-size: 15px;
+    color: var(--color-text);
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.CardAutor{
+    font-size: 18px;
+    color: var(--color-blue);
+    font-weight: 600;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+.CardTypeClient{
+    font-size: 13px;
+    color: var(--color-text);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5px;
+}

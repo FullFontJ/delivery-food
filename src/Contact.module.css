@@ -1,0 +1,112 @@
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.freeDeliver{
+    width: 800px;
+    height: 360px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px 0 30px 30px;
+    background-color: var(--color-red);
+}
+
+.freeDeliver > h2{
+    width: 60%;
+    font-size: 46px;
+    text-align: center;
+}
+
+.emailSend{
+    position: relative;
+    width: 440px;
+    height: 65px;
+}
+
+.emailSend > input{
+    width: 94%;
+    height: 100%;
+    border: none;
+    border-radius: 35px;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--color-text);
+    padding: 0 0 0 30px;
+}
+
+.emailSend > p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    top: -11px;
+    right: 6px;
+    background-color: var(--color-red);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.ContentFooter{
+    margin-top: 60px;
+    display: flex;
+    gap: 90px;
+}
+
+.socialFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialFooter > p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.socialRed{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.socialRed > li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--color-red);
+}
+
+.socialRed li > img{
+    height: 20px;
+    width: 20px;
+}
+
+.SectionFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TitleSectionFooter{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.SectionEnlace{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    color: var(--color-text);
+}

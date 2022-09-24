@@ -1,0 +1,71 @@
+.Container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.Container > img {
+    width: 540;
+    height: 570;
+    justify-self: self-end;
+}
+
+.infoSection{
+    justify-self: self-start;
+}
+
+.infoSection > p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;    
+}
+
+.Download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonDownload{
+    position: relative;
+    display: flex;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-red);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDownload{
+    position: relative;
+    display: flex;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-red);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;;
+}
+
+.buttonDownload:last-child{
+    background-color: white ;
+    color: var(--color-red);
+    border: 1px solid var(--color-text);
+}
+
+.iconDownload{
+    width: 25px;
+    height: 25px;
+}
