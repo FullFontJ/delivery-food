@@ -16,7 +16,7 @@ export function Contact() {
           </div>
         </div>
         <footer className={style.ContentFooter}>
-          <div></div>
+          <div className={style.backgroupFooter}></div>
 
           <div className={style.socialFooter}>
             <p>Food Delivery</p>

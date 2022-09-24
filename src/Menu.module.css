@@ -8,14 +8,15 @@
   height: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
 }
 
-.Menu:last-child {
-  justify-content: flex-end;
-}
-
-.Menu > ul {
-  margin-right: 140px;
+.Menu > p{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-blue);
 }
 
 .navMenu {
@@ -25,6 +26,8 @@
   gap: 60px;
   color: var(--color-text);
 }
+
+
 
 .navMenu > li {
   position: relative;
