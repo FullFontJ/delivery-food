@@ -26,6 +26,7 @@ export function App() {
             </button>
           </div>
         </div>
+        <img src={phone} />
       </section>
     </>
   );

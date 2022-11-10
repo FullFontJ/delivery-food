@@ -69,3 +69,11 @@
   color: var(--color-red);
   display: block;
 }
+
+
+@media screen and (max-width: 720px) {
+
+  .navMenu{
+    display: none;
+  }
+}

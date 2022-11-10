@@ -85,3 +85,15 @@
     text-transform: capitalize;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 720px) {
+
+    .Container{
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .Comments{
+        flex-direction: column;
+    }
+}

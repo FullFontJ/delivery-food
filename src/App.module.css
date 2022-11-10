@@ -4,6 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 
 .Container > img {
@@ -11,6 +12,11 @@
     height: 570;
     justify-self: self-end;
 }
+
+.Container > img:last-child {
+    display: none;
+}
+
 
 .infoSection{
     justify-self: self-start;
@@ -68,4 +74,27 @@
 .iconDownload{
     width: 25px;
     height: 25px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .Container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .infoSection{
+        justify-self: center;
+    }
+
+    .Container > img:first-child {
+        display: none;
+    }
+    
+    .Container > img:last-child {
+        display: block;
+        width: 540;
+        height: 570;
+        justify-self: center;
+    }
+
 }

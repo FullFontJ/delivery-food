@@ -1,7 +1,6 @@
 .Container{
     margin-top: 100px;
     width: 100%;
-    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +9,6 @@
 .infoWork{
     position: relative;
     width: 100%;
-    height: 300px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
@@ -68,3 +66,12 @@
  .whiteFont{
     color: white;
  }
+
+ @media screen and (max-width: 720px) {
+
+    .infoWork{
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+}
+ 
